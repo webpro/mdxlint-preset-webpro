@@ -1,0 +1,35 @@
+{
+  "name": "mdxlint-preset-webpro",
+  "version": "1.0.0",
+  "description": "Personal mdxlint preset",
+  "homepage": "https://github.com/webpro/mdxlint-preset-webpro",
+  "repository": "github:webpro/mdxlint-preset-webpro",
+  "type": "module",
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "npm run format",
+    "format": "mdxlint README.md -o"
+  },
+  "keywords": [],
+  "author": "Lars Kappert <lars@webpro.nl> (https://webpro.nl)",
+  "license": "ISC",
+  "dependencies": {
+    "mdast-util-directive": "^3.1.0",
+    "remark-directive": "^4.0.0",
+    "remark-frontmatter": "^5.0.0",
+    "remark-order-reference-links": "^0.0.3",
+    "remark-reference-links": "^7.0.0"
+  },
+  "mdxlint": {
+    "plugins": [
+      "./index.js"
+    ]
+  },
+  "devDependencies": {
+    "mdxlint": "^1.0.0",
+    "unified": "^11.0.5"
+  }
+}
