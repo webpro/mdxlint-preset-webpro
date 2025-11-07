@@ -19,8 +19,8 @@ const mdxlintPresetWebPro = {
     ['remark-frontmatter', ['yaml']],
     remarkDirective,
     preserveDirectiveSpacing,
-    remarkOrderLinks,
-    remarkReferenceLinks
+    remarkReferenceLinks,
+    remarkOrderLinks
   ]
 };
 
