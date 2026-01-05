@@ -5,6 +5,7 @@
 import remarkReferenceLinks from 'remark-reference-links';
 import remarkOrderLinks from 'remark-order-reference-links';
 import remarkDirective from 'remark-directive';
+import remarkValidateRelativeLinks from 'remark-validate-relative-links';
 import { preserveDirectiveSpacing } from './preserve-directive-spacing.js';
 
 /** @type {Preset} */
@@ -20,7 +21,8 @@ const mdxlintPresetWebPro = {
     remarkDirective,
     preserveDirectiveSpacing,
     remarkReferenceLinks,
-    remarkOrderLinks
+    remarkOrderLinks,
+    remarkValidateRelativeLinks
   ]
 };
 

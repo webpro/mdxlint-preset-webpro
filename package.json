@@ -22,7 +22,8 @@
     "remark-directive": "^4.0.0",
     "remark-frontmatter": "^5.0.0",
     "remark-order-reference-links": "^0.0.3",
-    "remark-reference-links": "^7.0.0"
+    "remark-reference-links": "^7.0.0",
+    "remark-validate-relative-links": "^0.0.1"
   },
   "mdxlint": {
     "plugins": [
