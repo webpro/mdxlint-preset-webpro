@@ -8,6 +8,7 @@ My personal [preset][1] for [mdxlint][2].
 - [remark-order-reference-links][4]
 - [remark-directive][5]
 - [remark-validate-relative-links][6]
+- [@webpro/remark-wrap-prose][7]
 
 [1]: https://github.com/unifiedjs/unified#preset
 [2]: https://github.com/remcohaszing/mdxlint
@@ -15,3 +16,4 @@ My personal [preset][1] for [mdxlint][2].
 [4]: https://github.com/webpro/remark-order-reference-links
 [5]: https://github.com/remarkjs/remark-directive
 [6]: https://github.com/webpro/remark-validate-relative-links
+[7]: https://github.com/webpro/remark-wrap-prose
