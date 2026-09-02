@@ -9,6 +9,7 @@ import remarkGFM from 'remark-gfm';
 import remarkValidateRelativeLinks from 'remark-validate-relative-links';
 import remarkWrapProse from '@webpro/remark-wrap-prose';
 import { preserveDirectiveSpacing } from './preserve-directive-spacing.js';
+import { preserveGfmAlerts } from './preserve-gfm-alerts.js';
 
 /** @type {Preset} */
 const mdxlintPresetWebPro = {
@@ -22,6 +23,7 @@ const mdxlintPresetWebPro = {
     ['remark-frontmatter', ['yaml']],
     remarkDirective,
     preserveDirectiveSpacing,
+    preserveGfmAlerts,
     remarkWrapProse,
     remarkGFM,
     remarkReferenceLinks,

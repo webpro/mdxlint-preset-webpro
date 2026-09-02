@@ -8,7 +8,8 @@
   "main": "./index.js",
   "files": [
     "index.js",
-    "preserve-directive-spacing.js"
+    "preserve-directive-spacing.js",
+    "preserve-gfm-alerts.js"
   ],
   "scripts": {
     "test": "npm run format",
