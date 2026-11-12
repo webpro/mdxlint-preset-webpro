@@ -40,5 +40,10 @@
     "mdxlint": "^1.0.0",
     "unified": "^11.0.5"
   },
-  "packageManager": "pnpm@11.28.11"
+  "packageManager": "pnpm@11.28.11",
+  "release-it": {
+    "npm": {
+      "stage": true
+    }
+  }
 }
