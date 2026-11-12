@@ -24,8 +24,8 @@ const mdxlintPresetWebPro = {
     remarkDirective,
     preserveDirectiveSpacing,
     preserveGfmAlerts,
-    remarkWrapProse,
     remarkGFM,
+    remarkWrapProse,
     remarkReferenceLinks,
     remarkOrderLinks,
     remarkValidateRelativeLinks
